@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "App that uses NodeJS to test your familiarity with subjects using ten random questions per subject",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Alpha-GP2/node-quiz-app.git"
+  },
+  "author": "Anthony Mahramus, Josias Kabore, Lawrence Splaver, Nathaniel Dent, Yahya Alhaddad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Alpha-GP2/node-quiz-app/issues"
+  },
+  "homepage": "https://github.com/Team-Alpha-GP2/node-quiz-app#readme"
+}
