@@ -1,0 +1,36 @@
+
+/* From http://lea.verou.me/css3patterns/ */
+/* Playing with CSS */
+body
+{
+  background-attachment: fixed;
+  background-color:rgb(92, 156, 206);
+  background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+
+}
+
+/* body {background-color: darkseagreen;} */
+
+background{
+    background-color: darkseagreen;
+}
+
+.container-fluid{
+    width: 70%;
+}
+.card-link{
+    color: crimson;
+}
+.panel-body{
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    box-shadow: 10px 40px;
+    border-bottom-style: ridge;
+}
+
+
