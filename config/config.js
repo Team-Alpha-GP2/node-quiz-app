@@ -1,7 +1,7 @@
 var fs = require("fs");
 module.exports = {
   "development": {
-    "username": "root",
+    "username": "node-quiz-app-dev",
     "password": null,
     "database": "node_quiz_app_db",
     "host": "127.0.0.1",

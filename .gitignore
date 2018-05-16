@@ -63,3 +63,5 @@ typings/
 # NetBeans if used
 .nbi
 nbproject/
+
+db/node-quiz-app-dev.zip
