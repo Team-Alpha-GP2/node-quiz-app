@@ -4,7 +4,6 @@
   "description": "App that uses NodeJS to test your familiarity with subjects using ten random questions per subject",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "test": "mocha"
   },
   "repository": {
