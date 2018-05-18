@@ -39,6 +39,7 @@ create table Topic_3 (
 # total_topic_1_average_correct, total_topic_2_average_correct, total_topic_3_average_correct should be calculated in code or through the database depending on which ends up being easier to do
 create table Results (
     id integer not null auto_increment primary key,
+    topicName varchar(255) not null,
     totalTakenPerTopic integer not null,
     totalCorrectPerTopic integer not null,
     totalAverageCorrectPerTopic decimal not null # = total_topic_1_correct / (total_topic_1_taken * 10)
