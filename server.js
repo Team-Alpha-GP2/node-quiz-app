@@ -22,7 +22,7 @@ app.set("view engine", "handlebars");
    }];
 
    app.get("/", function(req,res){
-    res.render("quizForm");
+    res.render("home");
    });
 
    app.listen(PORT, function() {
