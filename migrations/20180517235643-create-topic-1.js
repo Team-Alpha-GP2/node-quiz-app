@@ -24,15 +24,23 @@ module.exports = {
         type: Sequelize.STRING
       },
       correctAnswer: {
-        type: Sequelize.INTEGER
+        type: DataTypes.INTEGER,
+        gte: 1,
+        lte: 4 /*,
+        defaultValue: {
+          gte: 1,
+          lte: 4
+        }*/
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW
       }
     });
   },

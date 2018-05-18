@@ -11,30 +11,22 @@ module.exports = {
       topicName: {
         type: Sequelize.STRING
       },
-      totalTakenPerTopic: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        defaultValue: 0
-      },
       totalCorrectPerTopic: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        defaultValue: 0
+        type: Sequelize.INTEGER
+      },
+      totalTakenPerTopic: {
+        type: Sequelize.INTEGER
       },
       totalAverageCorrectPerTopic: {
-        type: Sequelize.DECIMAL,
-        allowNull: false,
-        defaultValue: 100.00
+        type: Sequelize.DECIMAL
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
+        type: Sequelize.DATE
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW
+        type: Sequelize.DATE
       }
     });
   },
