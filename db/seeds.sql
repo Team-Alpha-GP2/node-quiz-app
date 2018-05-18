@@ -1,0 +1,3 @@
+use node_quiz_app_db;
+
+insert into Topic_1 ("question", "answer1","answer2", "answer3","answer4", "correctAnswer") values (("What type of game system is Pathfinder RPG?", "Pen & Paper", "PC", "Figurines", "GURPs", 1),("What type of game were the old Fallout games?", "Pen & Paper", "XBox", "ARPG", "RPG", 4),("What type of game have the newer Fallout games been?", "Pen & Paper", "RPG", "ARPG", "Casual", 3),("How many Might and Magic (Not Heroes) games have there been?", "7", "10", "15", "20", 2),("What type of game is an ARPG?", "Strategy", "Role-Playing", "Action Role-Playing", "Adventure Role-Playing", 3),("Which game system does the Baldur's Gate series use?", "Pathfinder", "2nd Edition AD&D", "ShadowRun", "GURPs", 2));
