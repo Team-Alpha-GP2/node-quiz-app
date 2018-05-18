@@ -6,7 +6,7 @@ use node_quiz_app_db;
 
 # table names are temporary and may change
 # column names are temporary and may change
-create table topic_1 (
+create table Topic_1 (
     id integer not null auto_increment primary key,
     question varchar(255) not null,
     answer1 varchar(255) not null,
@@ -16,7 +16,7 @@ create table topic_1 (
     correctAnswer integer not null
 );
 
-create table topic_2 (
+create table Topic_2 (
     id integer not null auto_increment primary key,
     question varchar(255) not null,
     answer1 varchar(255) not null,
@@ -26,7 +26,7 @@ create table topic_2 (
     correctAnswer integer not null
 );
 
-create table topic_3 (
+create table Topic_3 (
     id integer not null auto_increment primary key,
     question varchar(255) not null,
     answer1 varchar(255) not null,
@@ -37,7 +37,7 @@ create table topic_3 (
 );
 
 # total_topic_1_average_correct, total_topic_2_average_correct, total_topic_3_average_correct should be calculated in code or through the database depending on which ends up being easier to do
-create table results (
+create table Results (
     id integer not null auto_increment primary key,
     totalTakenPerTopic integer not null,
     totalCorrectPerTopic integer not null,
