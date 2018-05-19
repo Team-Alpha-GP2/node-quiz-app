@@ -25,6 +25,12 @@ app.set("view engine", "handlebars");
     res.render("home");
    });
 
+   app.get("/quizForm", function(req,res){
+    res.render("quizForm");
+   });
+
+
+
    app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
