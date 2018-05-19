@@ -1,11 +1,20 @@
 var express = require("express");
-var exprhbs = require("express-handlebars");
-// var sequalize = require("sequalize");
+var exphbs = require("express-handlebars");
 var bodyParser = require("body-parser");
 var db = require("./models");
 var PORT = process.env.PORT || 3000;
 var app = express();
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
+   app.get("/", function(req,res){
+    res.render("home");
+   });
 
+   app.get("/quizForm", function(req,res){
+    res.render("quizForm");
+   });
 db.sequelize.sync().then(function () {
     app.listen(PORT, function () {
         console.log("Currently listening at http://localhost:" + PORT);
