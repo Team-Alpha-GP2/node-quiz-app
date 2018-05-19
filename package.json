@@ -24,6 +24,7 @@
     "url": "git+https://github.com/Team-Alpha-GP2/node-quiz-app.git"
   },
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0"
