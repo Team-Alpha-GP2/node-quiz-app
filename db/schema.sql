@@ -36,7 +36,7 @@ create table Topic_3 (
     correctAnswer integer
 );
 
-create table Results (
+create table Result (
     id integer not null auto_increment primary key,
     topicName varchar(255) not null,
     totalCorrectPerTopic integer not null,
