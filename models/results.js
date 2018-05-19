@@ -1,14 +1,14 @@
 'use strict';
 
-var currentAverage = function(correct, taken) {
-  var average;
-  if (!((correct === 0) && (taken === 0))) {
-    return average = correct1 / taken1;
-  }
-  else {
-    return 100.00;
-  }
-};
+// var currentAverage = function(correct, taken) {
+//   var average;
+//   if (!((correct === 0) && (taken === 0))) {
+//     return average = correct1 / taken1;
+//   }
+//   else {
+//     return 100.00;
+//   }
+// };
 // var currentAverage2 = function(correct2, taken2) {
 //   var average;
 //   return average = correct2 / taken2;
@@ -18,6 +18,7 @@ var currentAverage = function(correct, taken) {
 //   return average = correct3 / taken3;
 // }
 module.exports = (sequelize, DataTypes) => {
+  var temp1, temp2;
   var Results = sequelize.define('Results', {
     topicName: DataTypes.STRING,
     totalTakenPerTopic: {
@@ -29,20 +30,24 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: 0
     },
     totalAverageCorrectPerTopic: {
-      type: DataTypes.DECIMAL,
-      defaultValue: currentAverage(totalCorrectPerTopic, totalTakenPerTopic)
+      type: DataTypes.DECIMAL
+      // defaultValue: currentAverage(temp1, temp2) // totalCorrectPerTopic, totalTakenPerTopic)
     },
     createdAt: {
       type: DataTypes.DATE,
-      defaultValue: sequelize.NOW,
-      allowNull: false
+      allowNull: false,
+      defaultValue: sequelize.NOW
     },
     updatedAt: {
       type: DataTypes.DATE,
-      defaultValue: sequelize.NOW,
-      allowNull: false
+      allowNull: false,
+      defaultValue: sequelize.NOW
     }
-  }, {});
+  }, {
+    // timestamps: true
+    // temp1: totalCorrectPerTopic,
+    // temp2: totalTakenPerTopic
+  });
   Results.associate = function (models) {
     // associations can be defined here
   };

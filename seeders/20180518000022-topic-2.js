@@ -12,16 +12,16 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    return queryInterface.bulkInsert('Topic_2', [
+    return queryInterface.bulkInsert('Topic_2s', [
       {
         question: "tempQuestion1",
         answer1: "tempAnswer1",
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 1/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 1,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion2",
@@ -29,9 +29,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 2/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 2,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion3",
@@ -39,9 +39,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 3/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 3,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion4",
@@ -49,9 +49,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 4/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 4,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion5",
@@ -59,9 +59,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 1/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 1,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion6",
@@ -69,9 +69,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 2/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 2,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion7",
@@ -79,9 +79,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 1/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 1,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion8",
@@ -89,9 +89,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 2/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 2,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion9",
@@ -99,9 +99,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 3/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 3,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       },
       {
         question: "tempQuestion10",
@@ -109,9 +109,9 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 4/*,
-        createdAt: Sequelize.DATE,
-        updatedAt: new Date()*/
+        correctAnswer: 4,
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
       }
     ])
   },

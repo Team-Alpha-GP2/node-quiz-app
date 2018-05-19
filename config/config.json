@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "node-quiz-app-dev",
-    "password": "Lx;HK/MVqS$pdjaz]ay5",
+    "password": null,
     "database": "node_quiz_app_db",
     "host": "127.0.0.1",
     "dialect": "mysql"

@@ -12,32 +12,34 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-   return queryInterface.bulkInsert("Results", [
-     {
-       topicName: "Topic 1",
-       totalTakenPerTopic: 0,
-       totalCorrectPerTopic: 0,
-      //  totalAverageCorrectPerTopic: 100.00
-       createdAt: Sequelize.DATE, // new Date,
-       updatedAt: Sequelize.DATE
-    },
-     {
-       topicName: "Topic 2",
-       totalTakenPerTopic: 0,
-       totalCorrectPerTopic: 0
-      //  totalAverageCorrectPerTopic: 100.00
-      //  createdAt: Sequelize.DATE,
-      //  updatedAt: Sequelize.DATE
-    },
-     {
-       topicName: "Topic 3",
-       totalTakenPerTopic: 0,
-       totalCorrectPerTopic: 0
-      //  totalAverageCorrectPerTopic: 100.00
-      //  createdAt: Sequelize.DATE,
-      //  updatedAt: Sequelize.DATE
-    }
-   ], {});
+    return queryInterface.bulkInsert("Results", [
+      {
+        topicName: "Topic 1",
+        totalTakenPerTopic: 0,
+        totalCorrectPerTopic: 0,
+        //  totalAverageCorrectPerTopic: 100.00
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
+      },
+      {
+        topicName: "Topic 2",
+        totalTakenPerTopic: 0,
+        totalCorrectPerTopic: 0,
+        //  totalAverageCorrectPerTopic: 100.00
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
+      },
+      {
+        topicName: "Topic 3",
+        totalTakenPerTopic: 0,
+        totalCorrectPerTopic: 0,
+        //  totalAverageCorrectPerTopic: 100.00
+        createdAt: new Date(), //Sequelize.DATE,
+        updatedAt: new Date() //Sequelize.NOW
+      }
+    ], {
+        timestamps: true
+      });
   },
 
   down: (queryInterface, Sequelize) => {
