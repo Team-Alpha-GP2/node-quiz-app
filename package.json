@@ -1,21 +1,8 @@
 {
-  "name": "quiz-app",
-  "version": "1.0.0",
-  "description": "App that uses NodeJS to test your familiarity with subjects using ten random questions per subject",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Team-Alpha-GP2/node-quiz-app.git"
-  },
   "author": "Anthony Mahramus, Josias Kabore, Lawrence Splaver, Nathaniel Dent, Yahya Alhaddad",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Team-Alpha-GP2/node-quiz-app/issues"
   },
-  "homepage": "https://github.com/Team-Alpha-GP2/node-quiz-app#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
@@ -26,5 +13,20 @@
     "sequelize": "^4.37.7",
     "sequelize-cli": "^4.0.0"
   },
-  "devDependencies": {}
+  "description": "App that uses NodeJS to test your familiarity with subjects using ten random questions per subject",
+  "devDependencies": {
+  },
+  "homepage": "https://github.com/Team-Alpha-GP2/node-quiz-app#readme",
+  "license": "ISC",
+  "main": "server.js",
+  "name": "quiz-app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Alpha-GP2/node-quiz-app.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
