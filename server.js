@@ -6,7 +6,7 @@ var exprhbs = require("express-handlebars");
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = 8080;
 var db = require("./models");
 
 // Sets up the Express app to handle data parsing
@@ -21,9 +21,9 @@ app.get("/quizForm", function (req, res) {
     res.sendFile(path.join(__dirname, "quizForm.html"));
 });
 
-app.listen(PORT, function () {
-    console.log("App listening on PORT " + PORT);
-});
+// app.listen(PORT, function () {
+    // console.log("App listening on PORT " + PORT);
+// });
 // var sequalize = require("sequalize");
 
 db.sequelize.sync().then(function () {
