@@ -20,8 +20,8 @@ module.exports = {
         answer3: "Figurines",
         answer4: "GURPs",
         correctAnswer: 1,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "What type of game were the old Fallout games?",
@@ -30,8 +30,8 @@ module.exports = {
         answer3: "ARPG",
         answer4: "RPG",
         correctAnswer: 4,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "What type of game have the newer Fallout games been?",
@@ -40,8 +40,8 @@ module.exports = {
         answer3: "ARPG",
         answer4: "Casual",
         correctAnswer: 3,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "How many Might and Magic (Not Heroes) games have there been?",
@@ -50,8 +50,8 @@ module.exports = {
         answer3: "15",
         answer4: "20",
         correctAnswer: 2,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "What type of game is an ARPG?",
@@ -60,8 +60,8 @@ module.exports = {
         answer3: "Action Role-Playing",
         answer4: "Adventure Role-Playing",
         correctAnswer: 3,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "Which game system does the Baldur's Gate series use?",
@@ -70,8 +70,8 @@ module.exports = {
         answer3: "ShadowRun",
         answer4: "GURPs",
         correctAnswer: 2,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion7",
@@ -80,8 +80,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 1,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion8",
@@ -90,8 +90,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 2,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion9",
@@ -100,8 +100,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 3,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion10",
@@ -110,8 +110,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 4,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ])
   },

@@ -20,8 +20,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 1,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion2",
@@ -30,8 +30,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 2,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion3",
@@ -40,8 +40,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 3,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion4",
@@ -50,8 +50,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 4,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion5",
@@ -60,8 +60,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 1,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion6",
@@ -70,8 +70,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 2,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion7",
@@ -80,8 +80,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 1,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion8",
@@ -90,8 +90,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 2,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion9",
@@ -100,8 +100,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 3,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         question: "tempQuestion10",
@@ -110,8 +110,8 @@ module.exports = {
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
         correctAnswer: 4,
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ])
   },

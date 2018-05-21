@@ -23,11 +23,10 @@ module.exports = {
       },
       totalAverageCorrectPerTopic: {
         type: Sequelize.DECIMAL,
-        allowNull: false,
-        defaultValue: 100.00
+        allowNull: false
       },
       createdAt: {
-        type: Sequelize.DATE(3),
+        type: Sequelize.DATE,
         allowNull: false,
         defaultValue: Sequelize.NOW
       },
