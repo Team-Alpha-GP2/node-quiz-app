@@ -17,25 +17,22 @@ module.exports = {
         topicName: "Topic 1",
         totalTakenPerTopic: 0,
         totalCorrectPerTopic: 0,
-        //  totalAverageCorrectPerTopic: 100.00
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         topicName: "Topic 2",
         totalTakenPerTopic: 0,
         totalCorrectPerTopic: 0,
-        //  totalAverageCorrectPerTopic: 100.00
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       {
         topicName: "Topic 3",
         totalTakenPerTopic: 0,
         totalCorrectPerTopic: 0,
-        //  totalAverageCorrectPerTopic: 100.00
-        createdAt: new Date(), //Sequelize.DATE,
-        updatedAt: new Date() //Sequelize.NOW
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ], {
         timestamps: true

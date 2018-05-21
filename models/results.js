@@ -31,7 +31,6 @@ module.exports = (sequelize, DataTypes) => {
     },
     totalAverageCorrectPerTopic: {
       type: DataTypes.DECIMAL
-      // defaultValue: currentAverage(temp1, temp2) // totalCorrectPerTopic, totalTakenPerTopic)
     },
     createdAt: {
       type: DataTypes.DATE,
@@ -44,9 +43,6 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: sequelize.NOW
     }
   }, {
-    // timestamps: true
-    // temp1: totalCorrectPerTopic,
-    // temp2: totalTakenPerTopic
   });
   Results.associate = function (models) {
     // associations can be defined here
