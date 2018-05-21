@@ -2,10 +2,14 @@ var http = require("https");
 
 var options = {
   "method": "GET",
-  "hostname": 
+/*  "hostname":  //original version
     "opentdb",
     "com"
-  ,
+  , */
+  "hostname": [
+    "opentdb",
+    "com"
+  ],
   "path": [
     "api.php"
   ],
