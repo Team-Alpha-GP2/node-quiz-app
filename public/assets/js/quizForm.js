@@ -18,11 +18,17 @@ $(function () {
     for (var x = 0; x < tempLength; x++) {
       $.post("/api/Topic_1s", quizData[x])
     }
+
+    // $.ajax("/quizForm", function (req, res) {
+      // res.sendFile(path.join(__dirname;
+
+    $.ajax("quizForm");
+
   });
 
   $("#submitButton").on("submit", function (event) {
     eventPreventDefault();
-    var radioVal = $("input[type='radio']:checked").val().trim();
+    var radioVal = $("input[type='radio']:").val().trim();
     // Send the POST request.
     $.ajax("/api/Results", {
       type: "POST",
