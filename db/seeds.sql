@@ -6,4 +6,6 @@ insert into Topic_2 (question, answer1, answer2, answer3, answer4, correctAnswer
 
 insert into Topic_3 (question, answer1, answer2, answer3, answer4, correctAnswer) values ("tempQuestion1", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 1),("tempQuestion2", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 2),("tempQuestion3", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 3),("tempQuestion4", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 4),("tempQuestion5", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 1),("tempQuestion6", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 2),("tempQuestion7", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 1),("tempQuestion8", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 2),("tempQuestion9", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 3),("tempQuestion10", "tempAnswer1", "tempAnswer2", "tempAnswer3", "tempAnswer4", 4);
 
-insert into Results (topicName, totalCorrectPerTopic, totalTakenPerTopic) values ("Topic 1", 0, 0),("Topic 2", 0, 0),("Topic 3", 0, 0);
+# insert into Result (topicName, totalCorrectPerTopic, totalTakenPerTopic) values ("Topic 1", 0, 0),("Topic 2", 0, 0),("Topic 3", 0, 0);
+
+# insert into Result (topicName, totalCorrectPerTopic, totalTakenPerTopic, totalAverageCorrectPerTopic) values ("Topic 4", 0, 0, 0.00);

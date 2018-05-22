@@ -7,10 +7,19 @@ module.exports = (sequelize, DataTypes) => {
     answer3: DataTypes.STRING,
     answer4: DataTypes.STRING,
     correctAnswer: DataTypes.INTEGER,
-    operatorsAliases: false
 
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: sequelize.NOW,
+      allowNull: false
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      defaultValue: sequelize.NOW,
+      allowNull: false
+    }
   }, {});
-  Topic_1.associate = function(models) {
+  Topic_1.associate = function (models) {
     // associations can be defined here
   };
   return Topic_1;
