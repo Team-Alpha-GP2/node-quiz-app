@@ -13,8 +13,7 @@
     "sequelize-cli": "^4.0.0"
   },
   "description": "App that uses NodeJS to test your familiarity with subjects using ten random questions per subject",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/Team-Alpha-GP2/node-quiz-app#readme",
   "license": "ISC",
   "main": "server.js",

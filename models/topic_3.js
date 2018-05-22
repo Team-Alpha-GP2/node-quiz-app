@@ -6,7 +6,8 @@ module.exports = (sequelize, DataTypes) => {
     answer2: DataTypes.STRING,
     answer3: DataTypes.STRING,
     answer4: DataTypes.STRING,
-    correctAnswer: DataTypes.INTEGER
+    correctAnswer: DataTypes.INTEGER,
+    
   }, {});
   Topic_3.associate = function(models) {
     // associations can be defined here

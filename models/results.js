@@ -4,7 +4,8 @@ module.exports = (sequelize, DataTypes) => {
     topicName: DataTypes.STRING,
     totalTakenPerTopic: DataTypes.INTEGER,
     totalCorrectPerTopic: DataTypes.INTEGER,
-    totalAverageCorrectPerTopic: DataTypes.DECIMAL
+    totalAverageCorrectPerTopic: DataTypes.DECIMAL,
+    
   }, {});
   Results.associate = function(models) {
     // associations can be defined here
