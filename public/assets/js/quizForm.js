@@ -16,7 +16,7 @@ $(function () {
     var tempLength = quizData.length;
 
     for (var x = 0; x < tempLength; x++) {
-      $.post("/api/Topic_1s", quizData)
+      $.post("/api/Topic_1s", quizData[x])
     }
   });
 

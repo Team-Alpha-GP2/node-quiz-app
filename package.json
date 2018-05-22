@@ -16,6 +16,9 @@
   },
   "description": "App that uses NodeJS to test your familiarity with subjects using ten random questions per subject",
   "devDependencies": {},
+  "engines": {
+    "npm": "5.7.1"
+  },
   "homepage": "https://github.com/Team-Alpha-GP2/node-quiz-app#readme",
   "license": "ISC",
   "main": "server.js",
