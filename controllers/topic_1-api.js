@@ -4,7 +4,7 @@
 
 var db = require("../models");
 
-var currentCorrectAnswer = require("../currentCorrectAnswer");
+var currentCorrectAnswer = require("../currentCorrectAnswer.js");
 
 module.exports = function (app) {
 
