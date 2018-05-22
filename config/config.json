@@ -1,20 +1,20 @@
 {
   "development": {
-    "username": "sj2boszs0ej120yc",
-    "password": "p4xydaql7vadt72w",
-    "database": "w82dzrlshj9zw8bx",
-    "host": "s3lkt7lynu0uthj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "sj2boszs0ej120yc",
-    "password": "p4xydaql7vadt72w",
-    "database": "p4xydaql7vadt72w",
-    "host": "s3lkt7lynu0uthj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql"
+    "database": "node_quiz_app_db",
+    "dialect": "mysql",
+    "host": "127.0.0.1",
+    "password": null,
+    "username": "node-quiz-app-dev"
   },
   "production": {
-    "use_env_variable": "JAWSDB_URL",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "use_env_variable": "JAWSDB_URL"
+  },
+  "test": {
+    "database": "database_test",
+    "dialect": "mysql",
+    "host": "127.0.0.1",
+    "password": null,
+    "username": "root"
   }
 }

@@ -1,19 +1,18 @@
 var fs = require("fs");
 module.exports = {
   "development": {
-    "username": "	sj2boszs0ej120yc",
-    "password": "p4xydaql7vadt72w",
-    "database": "w82dzrlshj9zw8bx",
-    "host": "	s3lkt7lynu0uthj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "username": "node-quiz-app-dev",
+    "password": null,
+    "database": "node_quiz_app_db",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "sj2boszs0ej120yc",
-    "password": "p4xydaql7vadt72w",
-    "database": "w82dzrlshj9zw8bx",
-    "host": "s3lkt7lynu0uthj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql",
-    
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
