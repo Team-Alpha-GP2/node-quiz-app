@@ -13,6 +13,8 @@ $(function () {
       quizData = data;
     })
 
+    console.log(quizData);
+    
     var tempLength = quizData.length;
 
     for (var x = 0; x < tempLength; x++) {
@@ -25,6 +27,12 @@ $(function () {
     $.ajax("quizForm");
 
   });
+
+  $("quizForm").on("load", function (event) {
+    eventPreventDefault();
+
+
+  })
 
   $("#submitButton").on("submit", function (event) {
     eventPreventDefault();
