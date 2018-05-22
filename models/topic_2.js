@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
     answer2: DataTypes.STRING,
     answer3: DataTypes.STRING,
     answer4: DataTypes.STRING,
-    correctAnswer: DataTypes.INTEGER,
+    correctAnswer: DataTypes.STRING,
     createdAt: {
       type: DataTypes.DATE,
       defaultValue: sequelize.NOW,

@@ -1,43 +1,44 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Results', {
+    return queryInterface.createTable('Topic_2s', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      topicName: {
+      question: {
         type: Sequelize.STRING
       },
-      totalTakenPerTopic: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        defaultValue: 0
+      answer1: {
+        type: Sequelize.STRING
       },
-      totalCorrectPerTopic: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        defaultValue: 0
+      answer2: {
+        type: Sequelize.STRING
       },
-      totalAverageCorrectPerTopic: {
-        type: Sequelize.DECIMAL,
-        allowNull: false
+      answer3: {
+        type: Sequelize.STRING
+      },
+      answer4: {
+        type: Sequelize.STRING
+      },
+      correctAnswer: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
-        type: Sequelize.DATE,
         allowNull: false,
+        type: Sequelize.DATE,
         defaultValue: Sequelize.NOW
       },
       updatedAt: {
-        type: Sequelize.DATE,
         allowNull: false,
+        type: Sequelize.DATE,
         defaultValue: Sequelize.NOW
       }
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Results');
+    return queryInterface.dropTable('Topic_2s');
   }
 };

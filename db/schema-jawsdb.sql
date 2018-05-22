@@ -1,8 +1,4 @@
-drop database if exists node_quiz_app_db;
-
-create database node_quiz_app_db;
-
-use node_quiz_app_db;
+use i5ndn3w2uubkxbwp;
 
 # table names are temporary and may change
 # column names are temporary and may change

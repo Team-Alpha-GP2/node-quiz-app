@@ -12,7 +12,7 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    /* return queryInterface.bulkInsert("Results", [
+    return queryInterface.bulkInsert("Results", [
       {
         topicName: "Topic 1",
         totalTakenPerTopic: 0,
@@ -34,7 +34,9 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date()
       }
-    ], {}); */
+    ], {
+        timestamps: true
+      });
   },
 
   down: (queryInterface, Sequelize) => {

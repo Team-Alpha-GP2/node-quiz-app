@@ -95,11 +95,11 @@ module.exports = function (app) {
     });*/
     db.Topic_1.create({
       question: req.body.question,
-      answer1: req.body.answer1,
-      answer2: req.body.answer2,
-      answer3: req.body.answer3,
-      answer4: req.body.answer4,
-      correctAnswer: req.body.correctAnswer
+      answer1: req.body.incorrect_answer[1],
+      answer2: req.body.incorrect_answer[2],
+      answer3: req.body.incorrect_answer[3],
+      answer4: req.body.correct_answer,
+      correctAnswer: req.body.correct_answer
     })
   });
   // PUT route for updating posts

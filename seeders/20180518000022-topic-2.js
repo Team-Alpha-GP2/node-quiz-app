@@ -12,7 +12,7 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    return queryInterface.bulkInsert('Topic_2s', [
+    /* return queryInterface.bulkInsert('Topic_2s', [
       {
         question: "tempQuestion1",
         answer1: "tempAnswer1",
@@ -113,7 +113,7 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date()
       }
-    ])
+    ]) */
   },
 
   down: (queryInterface, Sequelize) => {

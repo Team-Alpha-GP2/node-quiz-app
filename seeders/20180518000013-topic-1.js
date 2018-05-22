@@ -12,14 +12,14 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    return queryInterface.bulkInsert('Topic_1s', [
+    /* return queryInterface.bulkInsert('Topic_1s', [
       {
         question: "What type of game system is Pathfinder RPG?",
         answer1: "Pen & Paper",
         answer2: "PC",
         answer3: "Figurines",
         answer4: "GURPs",
-        correctAnswer: 1,
+        correctAnswer: "Pen & Paper",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -29,7 +29,7 @@ module.exports = {
         answer2: "XBox",
         answer3: "ARPG",
         answer4: "RPG",
-        correctAnswer: 4,
+        correctAnswer: "RPG",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -39,7 +39,7 @@ module.exports = {
         answer2: "RPG",
         answer3: "ARPG",
         answer4: "Casual",
-        correctAnswer: 3,
+        correctAnswer: "ARPG",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -49,7 +49,7 @@ module.exports = {
         answer2: "10",
         answer3: "15",
         answer4: "20",
-        correctAnswer: 2,
+        correctAnswer: "10",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -59,7 +59,7 @@ module.exports = {
         answer2: "Role-Playing",
         answer3: "Action Role-Playing",
         answer4: "Adventure Role-Playing",
-        correctAnswer: 3,
+        correctAnswer: "Action Role-Playing",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -69,7 +69,7 @@ module.exports = {
         answer2: "2nd Edition AD&D",
         answer3: "ShadowRun",
         answer4: "GURPs",
-        correctAnswer: 2,
+        correctAnswer: "2nd Edition AD&D",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -79,7 +79,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 1,
+        correctAnswer: "tempAnswer1",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -99,7 +99,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 3,
+        correctAnswer: "tempAnswer3",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -109,11 +109,11 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 4,
+        correctAnswer: "tempAnswer4",
         createdAt: new Date(),
         updatedAt: new Date()
       }
-    ])
+    ]) */
   },
 
   down: (queryInterface, Sequelize) => {

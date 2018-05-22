@@ -13,7 +13,7 @@ create table Topic_1 (
     answer2 varchar(255) not null,
     answer3 varchar(255) not null,
     answer4 varchar(255) not null,
-    correctAnswer varchar(255) not null
+    correctAnswer integer not null
 );
 
 create table Topic_2 (
@@ -23,7 +23,7 @@ create table Topic_2 (
     answer2 varchar(255) not null,
     answer3 varchar(255) not null,
     answer4 varchar(255) not null,
-    correctAnswer varchar(255) not null
+    correctAnswer integer
 );
 
 create table Topic_3 (
@@ -33,7 +33,7 @@ create table Topic_3 (
     answer2 varchar(255) not null,
     answer3 varchar(255) not null,
     answer4 varchar(255) not null,
-    correctAnswer varchar(255) not null
+    correctAnswer integer
 );
 
 create table Result (
