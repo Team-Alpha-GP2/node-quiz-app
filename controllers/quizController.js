@@ -7,19 +7,19 @@ module.exports = function (app) {
             totalTakenPerTopic: totalTakenPerTopic++, // increment the total taken
             totalCorrectPerTopic: totalCorrectPerTopic++, // increment the total correct as correctly answered
         },
-        {
-            where: {
-                id: req.params.id
-            }
-        }).then(function (data) {
-            var quizOutputObject = {
-                quizzes: data
-            };
-            res.render("<resultspage>", quizOutputObject);
-        }).catch((err) => {
-            res.status(500).json({
-                error: err.message
+            {
+                where: {
+                    id: req.params.id
+                }
+            }).then(function (data) {
+                var quizOutputObject = {
+                    quizzes: data
+                };
+                res.render("<resultspage>", quizOutputObject);
+            }).catch((err) => {
+                res.status(500).json({
+                    error: err.message
+                });
             });
-        });
     };
 }

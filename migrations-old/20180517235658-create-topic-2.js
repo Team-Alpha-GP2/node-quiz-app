@@ -24,7 +24,13 @@ module.exports = {
         type: Sequelize.STRING
       },
       correctAnswer: {
-        type: DataTypes.STRING
+        type: DataTypes.INTEGER/*,
+        gte: 1,
+        lte: 4 /*,
+        defaultValue: {
+          gte: 1,
+          lte: 4
+        }*/
       },
       createdAt: {
         allowNull: false,

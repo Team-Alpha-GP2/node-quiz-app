@@ -12,64 +12,64 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-    return queryInterface.bulkInsert('Topic_1s', [
+    return queryInterface.bulkInsert('Topic_3s', [
       {
-        question: "What type of game system is Pathfinder RPG?",
-        answer1: "Pen & Paper",
-        answer2: "PC",
-        answer3: "Figurines",
-        answer4: "GURPs",
-        correctAnswer: "Pen & Paper",
+        question: "tempQuestion1",
+        answer1: "tempAnswer1",
+        answer2: "tempAnswer2",
+        answer3: "tempAnswer3",
+        answer4: "tempAnswer4",
+        correctAnswer: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        question: "What type of game were the old Fallout games?",
-        answer1: "Pen & Paper",
-        answer2: "XBox",
-        answer3: "ARPG",
-        answer4: "RPG",
-        correctAnswer: "RPG",
+        question: "tempQuestion2",
+        answer1: "tempAnswer1",
+        answer2: "tempAnswer2",
+        answer3: "tempAnswer3",
+        answer4: "tempAnswer4",
+        correctAnswer: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        question: "What type of game have the newer Fallout games been?",
-        answer1: "Pen & Paper",
-        answer2: "RPG",
-        answer3: "ARPG",
-        answer4: "Casual",
-        correctAnswer: "ARPG",
+        question: "tempQuestion3",
+        answer1: "tempAnswer1",
+        answer2: "tempAnswer2",
+        answer3: "tempAnswer3",
+        answer4: "tempAnswer4",
+        correctAnswer: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        question: "How many Might and Magic (Not Heroes) games have there been?",
-        answer1: "7",
-        answer2: "10",
-        answer3: "15",
-        answer4: "20",
-        correctAnswer: "10",
+        question: "tempQuestion4",
+        answer1: "tempAnswer1",
+        answer2: "tempAnswer2",
+        answer3: "tempAnswer3",
+        answer4: "tempAnswer4",
+        correctAnswer: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        question: "What type of game is an ARPG?",
-        answer1: "Strategy",
-        answer2: "Role-Playing",
-        answer3: "Action Role-Playing",
-        answer4: "Adventure Role-Playing",
-        correctAnswer: "Action Role-Playing",
+        question: "tempQuestion5",
+        answer1: "tempAnswer1",
+        answer2: "tempAnswer2",
+        answer3: "tempAnswer3",
+        answer4: "tempAnswer4",
+        correctAnswer: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        question: "Which game system does the Baldur's Gate series use?",
-        answer1: "Pathfinder",
-        answer2: "2nd Edition AD&D",
-        answer3: "ShadowRun",
-        answer4: "GURPs",
-        correctAnswer: "2nd Edition AD&D",
+        question: "tempQuestion6",
+        answer1: "tempAnswer1",
+        answer2: "tempAnswer2",
+        answer3: "tempAnswer3",
+        answer4: "tempAnswer4",
+        correctAnswer: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -79,7 +79,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: "tempAnswer1",
+        correctAnswer: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -99,7 +99,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: "tempAnswer3",
+        correctAnswer: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -109,7 +109,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: "tempAnswer4",
+        correctAnswer: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       }

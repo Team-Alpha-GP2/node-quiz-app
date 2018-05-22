@@ -19,7 +19,7 @@ module.exports = {
         answer2: "PC",
         answer3: "Figurines",
         answer4: "GURPs",
-        correctAnswer: "Pen & Paper",
+        correctAnswer: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -29,7 +29,7 @@ module.exports = {
         answer2: "XBox",
         answer3: "ARPG",
         answer4: "RPG",
-        correctAnswer: "RPG",
+        correctAnswer: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -39,7 +39,7 @@ module.exports = {
         answer2: "RPG",
         answer3: "ARPG",
         answer4: "Casual",
-        correctAnswer: "ARPG",
+        correctAnswer: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -49,7 +49,7 @@ module.exports = {
         answer2: "10",
         answer3: "15",
         answer4: "20",
-        correctAnswer: "10",
+        correctAnswer: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -59,7 +59,7 @@ module.exports = {
         answer2: "Role-Playing",
         answer3: "Action Role-Playing",
         answer4: "Adventure Role-Playing",
-        correctAnswer: "Action Role-Playing",
+        correctAnswer: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -69,7 +69,7 @@ module.exports = {
         answer2: "2nd Edition AD&D",
         answer3: "ShadowRun",
         answer4: "GURPs",
-        correctAnswer: "2nd Edition AD&D",
+        correctAnswer: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -79,7 +79,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: "tempAnswer1",
+        correctAnswer: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -99,7 +99,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: "tempAnswer3",
+        correctAnswer: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -109,7 +109,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: "tempAnswer4",
+        correctAnswer: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       }

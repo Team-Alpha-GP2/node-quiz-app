@@ -1,12 +1,18 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  var Topic_3 = sequelize.define('Topic_3s', {
+  var Topic_1 = sequelize.define('Topic_1s', {
     question: DataTypes.STRING,
     answer1: DataTypes.STRING,
     answer2: DataTypes.STRING,
     answer3: DataTypes.STRING,
     answer4: DataTypes.STRING,
-    correctAnswer: DataTypes.STRING,
+    correctAnswer: {
+      type: DataTypes.INTEGER/*,
+      defaultValue: {
+        gte: 1,
+        lte: 4
+      }*/
+    },
     createdAt: {
       type: DataTypes.DATE,
       defaultValue: sequelize.NOW,
@@ -18,8 +24,8 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     }
   }, {});
-  Topic_3.associate = function (models) {
+  Topic_1.associate = function (models) {
     // associations can be defined here
   };
-  return Topic_3;
+  return Topic_1;
 };

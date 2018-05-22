@@ -14,7 +14,7 @@ module.exports = function (app) {
     db.Topic_1.findAll({}).then(function (dbTopic_1) {
       // We have access to the Topic_1s as an argument inside of the callback function
       res.json(dbTopic_1);
-      /* var topicOneOuputObject = {
+      /* var topicOneOutputObject = {
           topic_1: dbTopic_1
       };
       res.render( */
@@ -95,12 +95,16 @@ module.exports = function (app) {
     });*/
     db.Topic_1.create({
       question: req.body.question,
-      answer1: req.body.answer
+      answer1: req.body.answer1,
+      answer2: req.body.answer2,
+      answer3: req.body.answer3,
+      answer4: req.body.answer4,
+      correctAnswer: req.body.correctAnswer
     })
   });
   // PUT route for updating posts
   app.put("/api/Results", function (req, res) {
-    if (req.body.chodenAnswer === currentCorrectAnswer) {
+    if (req.body.chosenAnswer === currentCorrectAnswer) {
       db.Results /*Post*/.update({ //req.body,
         totalCorrectPerTopic: +1 /* +1 or +0 depending on answer chosen */,
         totalTakenPerTopic: +1
@@ -120,28 +124,28 @@ module.exports = function (app) {
           });
           res.json(dbPost);
         });
-      }
+    }
 
-      else {
-        db.Results /*Post*/.update({ //req.body,
-          totalCorrectPerTopic: +0 /* +1 or +0 depending on answer chosen */,
-          totalTakenPerTopic: +1
-        },
-          {
-            where: {
-              // id: req.params /*body*/ .id, // specific row id will be determined by the order in which each topic is initially chosen
-              topicName: "" /*topic_1 name*/
-            }
-            /*}).then(function (dbPost) {
-              var resultsOutputObject = {
-                results: dbPost
-              };*/
-          }).catch((err) => {
-            res.status(500).json({
-              error: err.message
-            });
-            res.json(dbPost);
+    else {
+      db.Results /*Post*/.update({ //req.body,
+        totalCorrectPerTopic: +0 /* +1 or +0 depending on answer chosen */,
+        totalTakenPerTopic: +1
+      },
+        {
+          where: {
+            // id: req.params /*body*/ .id, // specific row id will be determined by the order in which each topic is initially chosen
+            topicName: "" /*topic_1 name*/
+          }
+          /*}).then(function (dbPost) {
+            var resultsOutputObject = {
+              results: dbPost
+            };*/
+        }).catch((err) => {
+          res.status(500).json({
+            error: err.message
           });
-        }
-    });
+          res.json(dbPost);
+        });
+    }
+  });
 };

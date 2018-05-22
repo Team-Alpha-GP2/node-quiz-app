@@ -18,7 +18,7 @@
 //   return average = correct3 / taken3;
 // }
 module.exports = (sequelize, DataTypes) => {
-  var temp1, temp2;
+  // var temp1, temp2;
   var Results = sequelize.define('Results', {
     topicName: DataTypes.STRING,
     totalTakenPerTopic: {

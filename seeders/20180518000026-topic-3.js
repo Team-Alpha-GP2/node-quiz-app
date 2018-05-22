@@ -19,7 +19,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 1,
+        correctAnswer: "tempAnswer1",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -29,7 +29,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 2,
+        correctAnswer: "tempAnswer2",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -39,7 +39,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 3,
+        correctAnswer: "tempAnswer3",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -49,7 +49,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 4,
+        correctAnswer: "tempAnswer4",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -59,7 +59,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 1,
+        correctAnswer: "tempAnswer1",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -69,7 +69,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 2,
+        correctAnswer: "tempAnswer2",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -79,7 +79,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 1,
+        correctAnswer: "tempAnswer1",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -89,7 +89,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 2,
+        correctAnswer: "tempAnswer2",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -99,7 +99,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 3,
+        correctAnswer: "tempAnswer3",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -109,7 +109,7 @@ module.exports = {
         answer2: "tempAnswer2",
         answer3: "tempAnswer3",
         answer4: "tempAnswer4",
-        correctAnswer: 4,
+        correctAnswer: "tempAnswer4",
         createdAt: new Date(),
         updatedAt: new Date()
       }
